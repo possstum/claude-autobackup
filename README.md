@@ -19,14 +19,14 @@
 ## Установка
 
 ### claude.ai (веб / десктоп)
-1. Скачайте `claude-autobackup.skill` из [Releases](../../releases) или соберите zip из этой папки.
-2. Settings → Skills (Capabilities) → Upload skill → выберите файл.
+1. Скачайте скилл: на этой странице **Code → Download ZIP** (или возьмите файл `claude-autobackup.skill`, если вам его прислали).
+2. Settings → Skills (Capabilities) → Upload skill → выберите скачанный zip или `.skill`. Если zip не принимается — распакуйте, переименуйте папку в `claude-autobackup` и заархивируйте заново.
 3. Подключите коннектор **Google Drive** (Settings → Connectors).
 4. Желательно: расширение **Claude in Chrome** — тогда Claude сам проверит GitHub, запустит экспорт и создаст задачу в Scheduled.
 
 ### Claude Code
 ```bash
-git clone https://github.com/<owner>/claude-autobackup ~/.claude/skills/claude-autobackup
+git clone https://github.com/possstum/claude-autobackup ~/.claude/skills/claude-autobackup
 ```
 
 ## Быстрый старт
